@@ -2,7 +2,6 @@
   font-family: 'KaushanScript';
   src: url("/fonts/KaushanScript-Regular.ttf"); }
 
-
 html, body {
   padding: 0;
   margin: 0; }
@@ -73,7 +72,7 @@ h1 {
   width: 820px;
   padding: 40px;
   margin: 30px auto 30px auto;
-  background-color:#fff;
+  background-color: #fff;
   border-top: 5px double #DBD9D9;
   border-bottom: 5px double DBD9D9;
   clear: both;
@@ -92,35 +91,33 @@ h1 {
   background-image: url("images/Selfie");
   background-size: 350px;
   background-position: top center;
-  background-repeat:  no-repeat;
+  background-repeat: no-repeat;
   border-top: 3px solid #000;
   border-radius: 10px; }
 
 .sidebar h3 {
   margin-top: 25px;
   color: #861C1C;
-  text-decoration: bold;  }
+  text-decoration: bold; }
 
 nav {
   clear: both;
   padding-top: 30px;
   overflow: hidden;
-  text-align: center;;
-}
+  text-align: center; }
 
 nav span {
-  display: inline;
-}
+  display: inline; }
+
 nav .ss-icon {
   color: #3a3a3a;
   font-size: 40px;
-  text-align: center;}
+  text-align: center; }
 
 nav .ss-icon:hover {
   transition: .7s;
-  text-shadow: -1px 0 black, 0 1px black,
-      1px 0 black, 0 -1px black;
-  color: #861C1C;}
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+  color: #861C1C; }
 
 .content {
   width: 625px;
@@ -129,14 +126,13 @@ nav .ss-icon:hover {
 
 .nav1 {
   float: left;
-  padding: 100px 0 0 0; 
-  width: 330px;}
+  padding: 100px 0 0 0;
+  width: 330px; }
 
 .nav1 li {
   float: left;
   padding-bottom: 10px;
-  margin: 0 0 0 5px;
-   }
+  margin: 0 0 0 5px; }
 
 .nav1 li a {
   padding: 5px 15px;
@@ -144,24 +140,20 @@ nav .ss-icon:hover {
   font-family: impact;
   letter-spacing: 0.4em;
   font-size: 20px;
-  color: #000;
- }
+  color: #000; }
 
 .nav1 li a:hover {
   color: #861C1C;
-  text-shadow: -1px 0 black, 0 1px black,
-      1px 0 black, 0 -1px black;
- }
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black; }
 
 .nav2 {
   float: right;
-  padding: 100px 0 0 0 ; 
-  width: 330px;}
+  padding: 100px 0 0 0;
+  width: 330px; }
 
 .nav2 li {
   float: right;
-  margin: 0 0 0 5px;
-   }
+  margin: 0 0 0 5px; }
 
 .nav2 li a {
   padding: 5px 15px;
@@ -173,8 +165,7 @@ nav .ss-icon:hover {
 .nav2 li a:hover {
   text-decoration: none;
   color: #861C1C;
-  text-shadow: -1px 0 black, 0 1px black,
-      1px 0 black, 0 -1px black; }
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black; }
 
 .posts, .post {
   margin-top: 0; }

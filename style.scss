@@ -103,18 +103,33 @@ h1 {
 
 nav {
   clear: both;
-  padding-top: 30px;
+  padding: 30px;
   overflow: hidden;
-  text-align: center;;
+  width: 540px; 
+  margin: 0 auto;
+  text-align: center}
+
+
+nav a { 
+  width: 180px;
+  text-align: center; 
+  display: block;
+  float: left;
 }
 
 nav span {
-  display: inline;
+  display: block;
+  width: 180px;
+  text-transform: none;
+  font-size: 12px;
+  text-align: center;
+
 }
+
 nav .ss-icon {
   color: #3a3a3a;
   font-size: 40px;
-  text-align: center;}
+  text-align: center; }
 
 nav .ss-icon:hover {
   transition: .7s;
@@ -130,7 +145,7 @@ nav .ss-icon:hover {
 .nav1 {
   float: left;
   padding: 100px 0 0 0; 
-  width: 330px;}
+  width: 320px;}
 
 .nav1 li {
   float: left;
@@ -156,7 +171,7 @@ nav .ss-icon:hover {
 .nav2 {
   float: right;
   padding: 100px 0 0 0 ; 
-  width: 330px;}
+  width: 320px;}
 
 .nav2 li {
   float: right;

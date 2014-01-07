@@ -218,13 +218,13 @@ nav .ss-icon:hover {
   .container1 {
     width: 100%;
     max-width: 481px;
-    margin: 20px auto 40px auto;
+    margin: 0 auto;
     background-color: #fff; }
 
   .container2 {
     width: 100%;
     max-width: 481px;
-    margin: 20px auto 40px auto;
+    margin: 0 auto;
     background-color: #fff; }
 
   .sidebar {

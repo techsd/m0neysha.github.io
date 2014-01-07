@@ -128,7 +128,6 @@ nav .ss-icon {
 
 nav .ss-icon:hover {
   transition: .7s;
-  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
   color: #861C1C; }
 
 .content {

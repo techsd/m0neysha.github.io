@@ -74,7 +74,7 @@ h1 {
   margin: 30px auto 30px auto;
   background-color: #fff;
   border-top: 5px double #DBD9D9;
-  border-bottom: 5px double DBD9D9;
+  border-bottom: 5px double #DBD9D9;
   clear: both;
   overflow: hidden; }
 
@@ -88,8 +88,8 @@ h1 {
   margin-left: 20px;
   width: 200px;
   height: 250px;
-  background-image: url("../images/Selfie.png");
-  background-size: 350px;
+  background-image: url("images/Selfie.png");
+  background-size: 350px auto;
   background-position: top center;
   background-repeat: no-repeat;
   border-top: 3px solid #000;

@@ -220,3 +220,28 @@ nav .ss-icon:hover {
 
 .posts strong, .post strong {
   font-weight: 600; }
+
+
+/* Landscape phone to portrait tablet */
+@media (max-width: 481px) {
+  body {
+    margin: 0 20px; }
+
+  .container1 {
+    width: 100%;
+    max-width: 481px;
+    margin: 40px auto 60px auto;
+    background-color: #fff; }
+
+ .container2 {
+    width: 100%;
+    max-width: 481px;
+    margin: 40px auto 60px auto;
+    background-color: #fff; }
+
+  .sidebar {
+    width: 100%; }
+
+  .content {
+    width: 100%; }
+ }

@@ -10,6 +10,7 @@ html, body {
 body {
   font: 16px/1 'Georgia';
   color: #3a3a3a;
+  line-height: 1.2em;
   background: #7C6E6E; }
 
 a {
@@ -222,7 +223,17 @@ nav .ss-icon:hover {
   text-transform: none;
   letter-spacing: 0;
   font-size: 44px;
-  color: #535357; }
+  padding-top: 10px;
+  color: #535357; 
+
+
+    }
+
+a.continue-reading:hover {
+  color: #861C1C;
+  text-shadow: -1px 0 black, 0 1px black,
+                1px 0 black, 0 -1px black;
+}
 
 .posts strong, .post strong {
   font-weight: 600; }
@@ -243,14 +254,14 @@ nav .ss-icon:hover {
   .canvas {
     width: 100%;
     box-sizing: border-box;
-    padding: 0;
+    padding: 10px;
   }
 
   .container1 {
     width: 100%;
     max-width: 481px;
     margin: 0 auto;
-    padding: 20px 0;
+    padding: 10px 0;
     background-color: #fff; 
     clear: both;
   }
@@ -260,11 +271,12 @@ nav .ss-icon:hover {
     box-sizing: border-box;
     max-width: 481px;
     margin: 0 auto;
-    background-color: #fff; 
-  }
+    background-color: #fff;
+    font-size: 14px; }
 
   .posts {
     width: 100%;
+    padding-bottom: 40px;
   }
 
   .sidebar {
@@ -272,7 +284,7 @@ nav .ss-icon:hover {
   }
 
   .content {
-    width: 80%; 
+    width: 100%; 
   }
 
   .nav1 {
@@ -283,8 +295,9 @@ nav .ss-icon:hover {
       width: 100px;
       padding: 0;
       display: block;
-      font-size: 13px;
-      line-height: 1.7em;
+      font-family: 'Exo', sans-serif;
+      font-size: 12px;
+      line-height: 1.5em;
       text-align: center;
     } 
   }
@@ -296,9 +309,12 @@ nav .ss-icon:hover {
     li a {
       width: 100px;
       padding: 0;
-      line-height: 1.7em;
+      line-height: 1.5em;
       display: block;
-      font-size: 13px;
+      font-family: 'Exo', sans-serif;
+      font-weight: bolder;
+      outline: 1px;
+      font-size: 12px;
       text-align: center;
     
     }
@@ -310,13 +326,13 @@ nav .ss-icon:hover {
   }
 
   .img-container {
-    width: 115px;
+    width: 95px;
     margin: 0 auto;
   } 
 
   .alt-image {
     display: inline-block;
-    width: 115px;
+    width: 95px;
     padding-bottom: 20px;
 
   }

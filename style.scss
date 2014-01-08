@@ -155,13 +155,6 @@ nav .ss-icon:hover {
   margin: 0 auto;
 }
 
-.desktop-image {
-  width: 255px;
-}
-
-.alt-image {
-  display: none;
-}
 
 .nav1 li a {
   padding: 10px;
@@ -271,7 +264,7 @@ a.continue-reading:hover {
     margin: 0 auto;
     padding: 10px 0;
     clear: both;
-    background-image: none;
+    background-size: 90px;
     height: 115px;
   }
 
@@ -330,21 +323,6 @@ a.continue-reading:hover {
   }
 
 
-  .desktop-image {
-    display: none;
-  }
-
-  .img-container {
-    width: 95px;
-    margin: 0 auto;
-  } 
-
-  .alt-image {
-    display: inline-block;
-    width: 95px;
-    padding-bottom: 20px;
-
-  }
 
   nav {
     width: 150px;

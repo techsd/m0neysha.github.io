@@ -10,7 +10,7 @@ html, body {
 body {
   font: 16px/1 'Georgia';
   color: #3a3a3a;
-  line-height: 1.2em;
+  line-height: 1em;
   background: #7C6E6E; }
 
 a {
@@ -65,10 +65,10 @@ h1 {
 
 .container1 {
   width: 900px;
+  background-image: url('/images/framebanner.png');
+  background-position: center;
   margin: 0px auto 0px auto;
-  background-color: #fff;
-  clear: both;
-  overflow: hidden; }
+  clear: both; }
 
 .container2 {
   width: 820px;
@@ -125,6 +125,7 @@ nav span {
   text-transform: none;
   font-size: 12px;
   text-align: center;
+  padding: 10px;
 
 }
 
@@ -152,6 +153,10 @@ nav .ss-icon:hover {
   margin: 0 auto;
 }
 
+.desktop-image {
+  width: 255px;
+}
+
 .alt-image {
   display: none;
 }
@@ -168,13 +173,14 @@ nav .ss-icon:hover {
 .nav1 li a:hover {
   color: #861C1C;
   text-shadow: -1px 0 black, 0 1px black,
-      1px 0 black, 0 -1px black;
+                1px 0 black, 0 -1px black;
  }
 
 .nav2 {
   float: right;
   padding: 100px 0 0 0 ; 
-  width: 320px;}
+  width: 318px;
+}
 
 .nav2 li {
   float: right;
@@ -341,7 +347,7 @@ a.continue-reading:hover {
     width: 150px;
     display: block;
     margin: 0 auto;
-    padding: 10px;
+    padding: 40px;
 
 
     a {

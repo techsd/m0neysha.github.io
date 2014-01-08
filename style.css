@@ -42,7 +42,7 @@ h3, h2 {
   letter-spacing: 3px; }
 
 h1 {
-  font-family: Sa;
+  font-family: Serif;
   font-style: normal;
   font-weight: normal;
   letter-spacing: 0;
@@ -219,6 +219,10 @@ nav .ss-icon:hover {
   body {
     margin: 0 auto; }
 
+  a h1 {
+    font-size: 24px;
+    color: #861C1C; }
+
   .canvas {
     width: 100%; }
 
@@ -235,11 +239,14 @@ nav .ss-icon:hover {
     margin: 0 auto;
     background-color: #fff; }
 
+  .posts {
+    width: 100%; }
+
   .sidebar {
     width: 100%; }
 
   .content {
-    width: 100%; }
+    width: 80%; }
 
   .nav1 {
     width: 100px;

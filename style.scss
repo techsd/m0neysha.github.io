@@ -77,7 +77,8 @@ h1 {
   border-top: 5px double #DBD9D9;
   border-bottom: 5px double #DBD9D9;
   clear: both;
-  overflow: hidden; }
+  overflow: hidden;
+}
 
 .sidebar {
   width: 275px;
@@ -147,9 +148,12 @@ nav .ss-icon:hover {
 
 .nav1 li {
   float: left;
-  padding-bottom: 10px;
-  margin: 0 0 0 5px;
-   }
+  margin: 0 auto;
+}
+
+.alt-image {
+  display: none;
+}
 
 .nav1 li a {
   padding: 10px;
@@ -173,7 +177,7 @@ nav .ss-icon:hover {
 
 .nav2 li {
   float: right;
-  margin: 0 0 0 5px;
+  margin: 0 auto;
    }
 
 .nav2 li a {
@@ -190,7 +194,9 @@ nav .ss-icon:hover {
       1px 0 black, 0 -1px black; }
 
 .posts, .post {
-  margin-top: 0; }
+  margin-top: 0;
+  width: 500px;
+  float: right; }
 
 .posts h2, .post h2 {
   margin-bottom: 14px; }
@@ -225,25 +231,98 @@ nav .ss-icon:hover {
 /* Landscape phone to portrait tablet */
 @media (max-width: 481px) {
   body {
-    margin: 0 20px; }
+    margin: 0 auto;
+  }
+
+  .canvas {
+    width: 100%;
+  }
 
   .container1 {
     width: 100%;
     max-width: 481px;
     margin: 0 auto;
-    background-color: #fff; }
+    background-color: #fff; 
+    clear: both;
+  }
 
  .container2 {
-    width: 100%;
+    width: 80%;
     max-width: 481px;
     margin: 0 auto;
     background-color: #fff; }
 
   .sidebar {
-    width: 100%; }
+    width: 100%; 
+  }
 
   .content {
-    width: 100%; }
+    width: 100%; 
+  }
 
-  .body-image {
-    max-width: 280px; } }
+  .nav1 {
+    width: 100px;
+    padding-top: 40px;
+
+    li a {
+      width: 100px;
+      padding: 0;
+      display: block;
+      font-size: 10px;
+      line-height: 1.2em;
+      text-align: center;
+    } 
+  }
+
+  .nav2 {
+    width: 100px;
+    padding-top: 40px;
+
+    li a {
+      width: 100px;
+      padding: 0;
+      line-height: 1.2em;
+      display: block;
+      font-size: 10px;
+      text-align: center;
+    
+    }
+  }
+
+
+  .desktop-image {
+    display: none;
+  }
+
+  .img-container {
+    width: 115px;
+    margin: 0 auto;
+  } 
+
+  .alt-image {
+    display: inline-block;
+    width: 115px;
+    padding-bottom: 20px;
+
+  }
+  nav {
+    width: 100%;
+    display: block;
+    overflow: hidden;
+
+    a {
+
+      width: 20%;
+
+      .ss-icon {
+        font-size: 40px;
+        display: block;
+
+        span {
+          display: none;
+        }
+      }
+
+    }
+  }
+}

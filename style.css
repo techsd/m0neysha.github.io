@@ -287,7 +287,8 @@ nav .ss-icon:hover {
     display: block;
     overflow: hidden; }
     nav a {
-      width: 100%; }
+      width: 100%;
+      display: block; }
       nav a .ss-icon {
         font-size: 40px;
         display: block; }

@@ -224,17 +224,21 @@ nav .ss-icon:hover {
     color: #861C1C; }
 
   .canvas {
-    width: 100%; }
+    width: 100%;
+    box-sizing: border-box;
+    padding: 0; }
 
   .container1 {
     width: 100%;
     max-width: 481px;
     margin: 0 auto;
+    padding: 20px 0;
     background-color: #fff;
     clear: both; }
 
   .container2 {
-    width: 80%;
+    width: 100%;
+    box-sizing: border-box;
     max-width: 481px;
     margin: 0 auto;
     background-color: #fff; }
@@ -255,8 +259,8 @@ nav .ss-icon:hover {
       width: 100px;
       padding: 0;
       display: block;
-      font-size: 10px;
-      line-height: 1.2em;
+      font-size: 13px;
+      line-height: 1.7em;
       text-align: center; }
 
   .nav2 {
@@ -265,9 +269,9 @@ nav .ss-icon:hover {
     .nav2 li a {
       width: 100px;
       padding: 0;
-      line-height: 1.2em;
+      line-height: 1.7em;
       display: block;
-      font-size: 10px;
+      font-size: 13px;
       text-align: center; }
 
   .desktop-image {
@@ -283,14 +287,18 @@ nav .ss-icon:hover {
     padding-bottom: 20px; }
 
   nav {
-    width: 50%;
+    width: 150px;
     display: block;
-    overflow: hidden; }
+    margin: 0 auto;
+    padding: 10px; }
     nav a {
-      width: 100%;
-      display: block; }
+      display: block;
+      float: left;
+      width: 40px;
+      padding: 5px; }
       nav a .ss-icon {
         font-size: 40px;
+        width: 40px;
         display: block; }
         nav a .ss-icon span {
           display: none; } }

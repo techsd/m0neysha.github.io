@@ -65,7 +65,7 @@ h1 {
 .container1 {
   width: 900px;
   height: 250px;
-  background-image: url("images/framebanner.png");
+  background-image: url("framebanner.png");
   background-position: center;
   background-repeat: no-repeat;
   margin: 0 auto 0 auto;
@@ -91,7 +91,7 @@ h1 {
   margin-left: 20px;
   width: 200px;
   height: 250px;
-  background-image: url("/Images/Selfie.png");
+  background-image: url("Selfie.png");
   background-size: 350px auto;
   background-position: top center;
   background-repeat: no-repeat;

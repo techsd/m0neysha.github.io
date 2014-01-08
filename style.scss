@@ -65,9 +65,11 @@ h1 {
 
 .container1 {
   width: 900px;
-  background-image: url('/images/framebanner.png');
+  height: 250px;
+  background-image: url('images/framebanner.png');
   background-position: center;
-  margin: 0px auto 0px auto;
+  background-repeat: no-repeat;
+  margin: 0 auto 0 auto;
   clear: both; }
 
 .container2 {
@@ -125,7 +127,7 @@ nav span {
   text-transform: none;
   font-size: 12px;
   text-align: center;
-  padding: 10px;
+  padding-top: 15px;
 
 }
 
@@ -268,8 +270,9 @@ a.continue-reading:hover {
     max-width: 481px;
     margin: 0 auto;
     padding: 10px 0;
-    background-color: #fff; 
     clear: both;
+    background-image: none;
+    height: 115px;
   }
 
  .container2 {

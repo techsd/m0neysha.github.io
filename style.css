@@ -1,18 +1,14 @@
-@font-face {
-  font-family: 'KaushanScript';
-  src: url("/fonts/KaushanScript-Regular.ttf"); }
-
 html, body {
   padding: 0;
   margin: 0; }
 
 body {
-  font: 16px/1 'Georgia';
+  font: 18px/1 'serif';
   color: #3a3a3a;
-  line-height: 1em; }
+  line-height: 1.3em; }
 
 a {
-  font-family: Georgia;
+  font-family: Serif;
   font-weight: normal;
   font-size: 14px;
   color: #3a3a3a;
@@ -42,93 +38,112 @@ h3, h2 {
   letter-spacing: 3px; }
 
 h1 {
-  font-family: Serif;
+  font-family: serif;
   font-style: normal;
-  font-weight: normal;
+  font-weight: bolder;
   letter-spacing: 0;
   text-transform: none;
   line-height: 1.3;
-  font-size: 28px;
+  font-size: 25px;
   margin: 0;
   color: #861C1C;
   padding: 0 0 0 0;
   text-rendering: optimizeLegibility; }
 
-.canvas {
-  width: 900px;
-  margin: 0 auto;
-  padding: 50px; }
+header {
+  clear: both;
+  overflow: hidden;
+  float: left;
+  width: 800px;
+  height: 250px;
+  margin-top: 40px; }
+
+header .circular img {
+  width: 200px;
+  height: 200px;
+  margin: 10px;
+  border-radius: 150px;
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.8); }
+
+header .large-headline {
+  font-family: impact;
+  font-size: 50px;
+  width: 400px;
+  height: 60px;
+  margin: 50px 0px 0px 0px;
+  letter-spacing: 0;
+  text-align: center;
+  float: left;
+  line-height: 1.2; }
+
+header .small-headline {
+  display: block;
+  margin-top: 2px;
+  margin-left: 30px;
+  width: 500px;
+  float: left;
+  font-family: serif;
+  font-size: 25px;
+  line-height: 20px;
+  text-transform: bold;
+  color: #000; }
 
 .container1 {
-  width: 900px;
-  height: 250px;
-  background-image: url("rose.png");
-  background-position: center;
+  width: 700px;
+  height: 300px;
   background-repeat: no-repeat;
-  margin: 0 auto 0 auto;
+  margin: auto;
   clear: both; }
 
 .container2 {
-  width: 820px;
-  padding: 40px;
-  margin: 30px auto 30px auto;
+  width: 600px;
+  padding: 50px;
+  margin: 0px auto;
   background-color: #fff;
-  border-top: 5px double #DBD9D9;
-  border-bottom: 5px double #DBD9D9;
+  border-top: 1px double #DBD9D9;
+  border-bottom: 1px double #DBD9D9;
   clear: both;
   overflow: hidden; }
 
-.sidebar {
-  width: 275px;
-  margin-right: 25px;
-  float: left; }
+#navigation {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  color: #ffffff;
+  height: 35px;
+  text-align: center;
+  padding-top: 15px;
+  box-shadow: 0px 0px 8px 0px #000000;
+  background-color: rgba(1, 1, 1, 0.5);
+  color: rgba(1, 1, 1, 0.5); }
 
-.sidebar .avatar {
-  display: block;
-  margin-left: 20px;
-  width: 200px;
-  height: 250px;
-  background-image: url("Selfie.png");
-  background-size: 350px auto;
-  background-position: top center;
-  background-repeat: no-repeat;
-  border-top: 3px solid #000;
-  border-radius: 10px; }
+#navigation a {
+  font-size: 14px;
+  padding-left: 15px;
+  padding-right: 15px;
+  color: white;
+  text-decoration: none; }
 
-.sidebar h3 {
-  margin-top: 25px;
-  color: #861C1C;
-  text-decoration: bold; }
+#navigation a:hover {
+  color: #000000; }
 
 nav {
   clear: both;
   padding: 30px;
   overflow: hidden;
-  width: 540px;
+  width: 300px;
   margin: 0 auto;
   text-align: center; }
 
 nav a {
-  width: 180px;
+  width: 100px;
   text-align: center;
   display: block;
-  float: left; }
-
-nav span {
-  display: block;
-  width: 180px;
+  float: left;
   text-transform: none;
-  font-size: 12px;
+  font-size: 15px;
   text-align: center;
-  padding-top: 15px; }
-
-nav .ss-icon {
-  color: #3a3a3a;
-  font-size: 40px;
-  text-align: center; }
-
-nav .ss-icon:hover {
-  transition: .7s;
+  padding-top: 15px;
   color: #861C1C; }
 
 .content {
@@ -136,52 +151,9 @@ nav .ss-icon:hover {
   padding: 0 0 0 0px;
   float: right; }
 
-.nav1 {
-  float: left;
-  padding: 100px 0 0 0;
-  width: 320px; }
-
-.nav1 li {
-  float: left;
-  margin: 0 auto; }
-
-.nav1 li a {
-  padding: 10px;
-  text-transform: uppercase;
-  font-family: impact;
-  letter-spacing: 0.4em;
-  font-size: 20px;
-  color: #000; }
-
-.nav1 li a:hover {
-  color: #861C1C;
-  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black; }
-
-.nav2 {
-  float: right;
-  padding: 100px 0 0 0;
-  width: 318px; }
-
-.nav2 li {
-  float: right;
-  margin: 0 auto; }
-
-.nav2 li a {
-  padding: 10px;
-  font-family: Impact;
-  letter-spacing: 0.4em;
-  font-size: 20px;
-  color: #000; }
-
-.nav2 li a:hover {
-  text-decoration: none;
-  color: #861C1C;
-  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black; }
-
 .posts, .post {
-  margin-top: 0;
-  width: 500px;
-  float: right; }
+  margin: 0px auto;
+  width: 600px; }
 
 .posts h2, .post h2 {
   margin-bottom: 14px; }

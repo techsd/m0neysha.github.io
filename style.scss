@@ -59,7 +59,7 @@ header {
   width: 800px;
   height: 250px;
   margin-top: 40px;
-
+  
   }
   header .circular img {
     width: 200px;
@@ -141,34 +141,22 @@ nav {
   clear: both;
   padding: 30px;
   overflow: hidden;
-  width: 210px; 
+  width: 240px; 
   margin: 0 auto;
   text-align: center}
 
 
 nav a { 
-  width: 70px;
+  width: 80px;
   text-align: center; 
   display: block;
   float: left;
   text-transform: none;
-  font-size: 40px;
+  font-size: 14px;
   text-align: center;
   padding-top: 15px;
-  color: #3a3a3a;
-}
-
-
- nav .ss-icon {
-  color: #3a3a3a;
-  font-size: 40px;
-  text-align: center;}
- 
- nav .ss-icon:hover {
   color: #861C1C;
-  transition: .7s;
- }
-
+}
 
 .content {
   width: 625px;

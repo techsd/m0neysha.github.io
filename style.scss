@@ -139,18 +139,19 @@ header {
 
 nav {
   clear: both;
-  padding: 30px;
+  padding: 20px;
   overflow: hidden;
-  width: 240px; 
+  width: 300px; 
   margin: 0 auto;
   text-align: center}
 
 
 nav a { 
-  width: 80px;
+  width: 100px;
   text-align: center; 
-  display: block;
-  float: left;
+  display: inline;
+  margin: auto;
+  padding: 10px;
   text-transform: none;
   font-size: 14px;
   text-align: center;
@@ -220,11 +221,28 @@ a.continue-reading:hover {
     }
   }
 
-  .canvas {
-    width: 100%;
-    box-sizing: border-box;
-    padding: 10px;
+  header {
+    clear: both;
+    overflow: hidden;
+    float: left;
+    width: 481px;
+    height: 250px;
+    margin-top: 40px;
+    .large-headline {
+      display: block;
+      .small-headline {
+        display: block;
+        .circular img {
+          margin: auto;
+          width: 150px;
+          height: 150px;
+        }
+      }
+    }    
   }
+
+
+
 
   .container1 {
     width: 100%;
@@ -242,81 +260,28 @@ a.continue-reading:hover {
     max-width: 481px;
     margin: 0 auto;
     background-color: #fff;
-    font-size: 14px; }
-
-  .posts {
-    width: 100%;
-    padding-bottom: 40px;
+    font-size: 14px; 
   }
 
-  .sidebar {
-    width: 100%; 
-  }
-
-  .content {
-    width: 100%; 
-  }
-
-  .nav1 {
-    width: 100px;
-    padding-top: 40px;
-
-    li a {
-      width: 100px;
-      padding: 0;
-      display: block;
-      font-family: 'Exo', sans-serif;
-      font-size: 12px;
-      line-height: 1.5em;
-      text-align: center;
-    } 
-  }
-
-  .nav2 {
-    width: 100px;
-    padding-top: 40px;
-
-    li a {
-      width: 100px;
-      padding: 0;
-      line-height: 1.5em;
-      display: block;
-      font-family: 'Exo', sans-serif;
-      font-weight: bolder;
-      outline: 1px;
-      font-size: 12px;
-      text-align: center;
-    
+  #navigation {
+    padding-top: 10px;
+    a {
+      font-size: 10px;
+      padding-left: 5px;
+      padding-right: 5px;
+      }
     }
-  }
-
-
 
   nav {
-    width: 150px;
+    width: 200px;
     display: block;
     margin: 0 auto;
     padding: 40px;
-
-
     a {
-      display: block;
-      float: left;
-      width: 40px;
+      width: 70px;
+      font-size: 10px;
       padding: 5px;
-
-
-      .ss-icon {
-        font-size: 40px;
-        width: 40px;
-        display: block;
-
-        span { 
-          display: none;
-        }
-
       }
     }
   }
-}
-
+  

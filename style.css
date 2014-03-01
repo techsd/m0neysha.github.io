@@ -58,13 +58,6 @@ header {
   height: 250px;
   margin-top: 40px; }
 
-header .circular img {
-  width: 200px;
-  height: 200px;
-  margin: 10px;
-  border-radius: 150px;
-  box-shadow: 0 0 8px rgba(0, 0, 0, 0.8); }
-
 header .large-headline {
   font-family: impact;
   font-size: 50px;
@@ -87,6 +80,13 @@ header .small-headline {
   line-height: 20px;
   text-transform: bold;
   color: #9B9999; }
+
+header .circular img {
+  width: 200px;
+  height: 200px;
+  margin: 10px;
+  border-radius: 150px;
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.8); }
 
 .container1 {
   width: 700px;
@@ -200,51 +200,44 @@ a.continue-reading:hover {
     color: #861C1C; }
 
   header {
-    clear: both;
-    overflow: hidden;
-    float: left;
-    width: 481px;
-    height: 250px;
-    margin-top: 40px; }
-    header .large-headline {
-      display: block; }
-      header .large-headline .small-headline {
+    width: 320px;
+    height: 180px; }
+    header .circular img {
+      width: 120px;
+      height: 120px; }
+      header .circular img .large-headline {
         display: block; }
-        header .large-headline .small-headline .circular img {
-          margin: auto;
-          width: 150px;
-          height: 150px; }
+        header .circular img .large-headline .small-headline {
+          display: block; }
 
   .container1 {
-    width: 100%;
-    max-width: 481px;
-    margin: 0 auto;
-    padding: 10px 0;
-    clear: both;
-    background-size: 90px auto;
-    height: 115px; }
+    max-width: 320px;
+    max-height: 180px;
+    margin-top: 20px;
+    clear: both; }
 
   .container2 {
     width: 100%;
+    max-width: 320px;
+    margin: auto;
     box-sizing: border-box;
-    max-width: 481px;
-    margin: 0 auto;
     background-color: #fff;
     font-size: 14px; }
 
   #navigation {
+    height: 50px;
     padding-top: 10px; }
     #navigation a {
+      width: 50px;
       font-size: 10px;
-      padding-left: 5px;
-      padding-right: 5px; }
+      padding-left: 10px;
+      padding-right: 10px; }
 
   nav {
-    width: 200px;
+    width: 250px;
     display: block;
-    margin: 0 auto;
-    padding: 40px; }
+    margin: 0 auto; }
     nav a {
-      width: 70px;
-      font-size: 10px;
+      width: 60px;
+      font-size: 12px;
       padding: 5px; } }

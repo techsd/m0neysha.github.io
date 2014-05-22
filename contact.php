@@ -16,18 +16,10 @@ $headers .= 'Reply-To: '.$field_email."\r\n";
 
 $mail_status = mail($mail_to, $subject, $body_message, $headers);
 
-if ($mail_status) { ?>
-	<script language="javascript" type="text/javascript">
-		alert('Thank you for the message. I will contact you shortly.');
-		window.location = 'contact.html';
-	</script>
-<?php
-}
-else { ?>
-	<script language="javascript" type="text/javascript">
-		alert('Message failed. Please, send an email to manishafiji5194@gmail.com');
-		window.location = 'contact.html';
-	</script>
-<?php
-}
+ if ($_POST['submit']) {				 
+        if ($mail_status) { 
+	    echo '<p>Your message has been sent!</p>';
+	} else { 
+	    echo '<p>Something went wrong, go back and try again!</p>'; 
+	} 
 ?>

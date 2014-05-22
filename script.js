@@ -31,28 +31,25 @@ $('#carousel-prev').click(function(){
 $('#item1').click(function(item1) {
 	$('#info1')
   			.html( "<div class='review'><div id='review'>REVIEW </div>Gambino! Gambino! Gambino! Gambino! Gambino! Gambino! Gambino! Gambino! Gambino! Gambino! Gambino! Gambino! Gambino! Gambino! Gambino! Gambino! Gambino! Gambino! Gambino! Gambino! Gambino! Gambino! Gambino! Gambino! Gambino! Gambino! Gambino! Gambino! Gambino! Gambino! Gambino! Gambino! Gambino! Gambino! Gambino! Gambino!</div> <div class='track-list'><div id='fav-tracks'>FAVORITE TRACKS</div>1. Telegraph Ave. <br> 2. sweatpants <br>3. 3005 </div>"  ); 
-	if ($(this).hasClass('clicked')) { // it's clicked
-		if ($('.row1').hasClass('clicked')) {
-  			if ($('#item2').hasClass('clicked')) {
-	  		$('.row1').removeClass('clicked');
-	  		}
-	  		else {
-	  		$('#info1').slideUp(200);
-	  		}	
-	  	} else {
-	  		$('.row1').addClass('clicked');
-	  	}		
-	 $(this).removeClass('clicked');  	
-	} else { // not clicked		
-  					
+	if ($(this).hasClass('clicked')) { 
+		if (($('#item2').hasClass('clicked')) || ($('#item3').hasClass('clicked'))
+		   || ($('#item4').hasClass('clicked')))  {
+			$('#info1').show(); // keep the info showing
+			//$('.row1').addClass('clicked');
+		}
+  		else {
+  		$('#info1').slideUp(200);
+  		$(this).removeClass('clicked');
+  		//$('.row1').removeClass('clicked');
+
+  		}		   	
+	} else { 				
 		if ($('.row1').hasClass('clicked')) {
 			item1.stopPropagation();
-  			//$('#info1').slideUp(200);
-  			$('.row1').removeClass('clicked');
-  			$(this).addClass('clicked');
 	  	} else { // first click
+	  		$('#info1').slideDown(200);
 	  	}
-	
+	  	$(this).addClass('clicked');	
   }
 
   });
@@ -61,56 +58,53 @@ $('#item1').click(function(item1) {
 $('#item2').click(function(item2) {
 	$('#info1')
   			.html( "<div class='review'><div id='review'>REVIEW </div>Cashmere Cat! Cashmere Cat! Cashmere Cat! Cashmere Cat! Cashmere Cat! Cashmere Cat! Cashmere Cat! Cashmere Cat! Cashmere Cat! Cashmere Cat! Cashmere Cat! Cashmere Cat!</div> <div class='track-list'><div id='fav-tracks'>FAVORITE TRACKS</div>1. Telegraph Ave. <br> 2. sweatpants <br>3. 3005 </div>"  ); 
-	if ($(this).hasClass('clicked')) { // it's clicked
-		if ($('.row1').hasClass('clicked')) {
-  			if ($('#item1').hasClass('clicked')) {
-	  		$('.row1').removeClass('clicked');
-	  		}
-	  		else {
-	  		$('#info1').slideUp(200);
-	  		}	
-	  	} else {
-	  		$('.row1').addClass('clicked');
-	  	}		
-	 $(this).removeClass('clicked');  	
-	} else { // not clicked						
+	if ($(this).hasClass('clicked')) { 
+		if (($('#item1').hasClass('clicked')) || ($('#item3').hasClass('clicked'))
+		   || ($('#item4').hasClass('clicked')))  {
+			$('#info1').show(); // keep the info showing
+			//$('.row1').addClass('clicked');
+		}
+  		else {
+  		$('#info1').slideUp(200);
+  		$(this).removeClass('clicked');
+  		//$('.row1').removeClass('clicked');
+
+  		}		   	
+	} else { 				
 		if ($('.row1').hasClass('clicked')) {
 			item2.stopPropagation();
-  			$('.row1').removeClass('clicked');
-  			$(this).addClass('clicked');
 	  	} else { // first click
-	  		
+	  		$('#info1').slideDown(200);
 	  	}
+	  	$(this).addClass('clicked');	
 	
   }
 
   });
 
 
-$('#item3').click(function(item2) {
+$('#item3').click(function(item3) {
 	$('#info1')
   			.html( "<div class='review'><div id='review'>REVIEW </div>Coachella! Coachella! Coachella! Coachella! Coachella! Coachella! Coachella! Coachella! Coachella! Coachella! Coachella! Coachella! Coachella! Coachella! Coachella! Coachella!</div> <div class='track-list'><div id='fav-tracks'>FAVORITE TRACKS</div>1. Telegraph Ave. <br> 2. sweatpants <br>3. 3005 </div>"  ); 
-	if ($(this).hasClass('clicked')) { // it's clicked
-		if ($('.row1').hasClass('clicked')) {
-  			if ($('#item2').hasClass('clicked')) {
-	  		$('.row1').removeClass('clicked');
-	  		}
-	  		else {
-	  		$('#info1').slideUp(200);
-	  		}	
-	  	} else {
-	  		$('.row1').addClass('clicked');
-	  	}		
-	 $(this).removeClass('clicked');  	
-	} else { // not clicked						
+	if ($(this).hasClass('clicked')) { 
+		if (($('#item1').hasClass('clicked')) || ($('#item2').hasClass('clicked'))
+		   || ($('#item4').hasClass('clicked')))  {
+			$('#info1').show(); // keep the info showing
+			//$('.row1').addClass('clicked');
+		}
+  		else {
+  		$('#info1').slideUp(200);
+  		$(this).removeClass('clicked');
+  		//$('.row1').removeClass('clicked');
+
+  		}		   	
+	} else { 				
 		if ($('.row1').hasClass('clicked')) {
 			item3.stopPropagation();
-  			$('.row1').removeClass('clicked');
-  			$(this).addClass('clicked');
 	  	} else { // first click
-	 
+	  		$('#info1').slideDown(200);
 	  	}
-	
+	  	$(this).addClass('clicked');	
   }
 
   });
@@ -119,29 +113,27 @@ $('#item3').click(function(item2) {
 $('#item4').click(function(item4) {
 	$('#info1')
   			.html( "<div class='review'><div id='review'>REVIEW </div>Schoolboy Q! Schoolboy Q! Schoolboy Q! Schoolboy Q! Schoolboy Q! Schoolboy Q! Schoolboy Q! Schoolboy Q! Schoolboy Q! Schoolboy Q! Schoolboy Q! Schoolboy Q! Schoolboy Q!</div> <div class='track-list'><div id='fav-tracks'>FAVORITE TRACKS</div>1. Los Awesome <br> 2. Gangsta<br>3. Studio </div> "); 
-	if ($(this).hasClass('clicked')) { // it's clicked
-		if ($('.row1').hasClass('clicked')) {
-  			if ($('#item3').hasClass('clicked')) {
-	  		$('.row1').removeClass('clicked');
-	  		}
-	  		else {
-	  		$('#info1').slideUp(200);
-	  		}	
-	  	} else {
-	  		$('.row1').addClass('clicked');
-	  	}		
-	 $(this).removeClass('clicked');  	
-	} else { // not clicked		
-  					
+	if ($(this).hasClass('clicked')) { 
+		if (($('#item1').hasClass('clicked')) || ($('#item2').hasClass('clicked'))
+		   || ($('#item3').hasClass('clicked')))  {
+			$('#info1').show(); // keep the info showing
+			//$('.row1').addClass('clicked');
+		}
+  		else {
+  		$('#info1').slideUp(200);
+  		$(this).removeClass('clicked');
+  		//$('.row1').removeClass('clicked');
+
+  		}		   	
+	} else { 				
 		if ($('.row1').hasClass('clicked')) {
 			item4.stopPropagation();
-  			$('.row1').removeClass('clicked');
-  			$(this).addClass('clicked');
 	  	} else { // first click
-	  		
+	  		$('#info1').slideDown(200);
 	  	}
-	
+	  	$(this).addClass('clicked');	
   }
+	
 
   });
 
@@ -244,6 +236,7 @@ $('#blog-pic2').hover(function() {
 	$('#mini-banner').hide();
 	}
 );
+
 
 
 

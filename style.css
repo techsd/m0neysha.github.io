@@ -792,17 +792,17 @@ padding-right: 20px;
     height:100px;
 }
 .white-pink .button {
-    -moz-box-shadow:inset 0px 1px 0px 0px #fbafe3;
-    -webkit-box-shadow:inset 0px 1px 0px 0px #fbafe3;
+    -moz-box-shadow:inset 0px 1px 0px 0px  #E68A99;
+    -webkit-box-shadow:inset 0px 1px 0px 0px  #E68A99;
     box-shadow:inset 0px 1px 0px 0px #fbafe3;
-    background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #ff5bb0), color-stop(1, #ef027d) );
-    background:-moz-linear-gradient( center top, #ff5bb0 5%, #ef027d 100% );
-    filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff5bb0', endColorstr='#ef027d');
-    background-color:#ff5bb0;
+    background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #E68A99), color-stop(1, #F8D7E3)) );
+    background:-moz-linear-gradient( center top, #E68A99 5%, #F8D7E3) 100% );
+    filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#E68A99', endColorstr='#F8D7E3');
+    background-color: #E68A99;
     border-radius:9px;
     -webkit-border-radius:9px;
     -moz-border-border-radius:9px;
-    border:1px solid #ee1eb5;
+    border:1px solid #CEA4AB;
     display:inline-block;
     color:#ffffff;
     font-family:Arial;
@@ -817,8 +817,8 @@ padding-right: 20px;
     text-shadow:1px 1px 0px #c70067;
 }
 .white-pink .button:hover {
-    background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #ef027d), color-stop(1, #ff5bb0) );
-    background:-moz-linear-gradient( center top, #ef027d 5%, #ff5bb0 100% );
+    background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #ef027d), color-stop(1,  #E68A99) );
+    background:-moz-linear-gradient( center top, #ef027d 5%,  #E68A99 100% );
     filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#ef027d', endColorstr='#ff5bb0');
     background-color:#ef027d;
 }

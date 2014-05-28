@@ -89,7 +89,7 @@ h4 {
 }
 
 #rose {
-  background-image: url('images/rose.png');
+  background-image: url("images/rose.png");
   background-position: center;
   background-repeat:  no-repeat;
   float: left;
@@ -103,6 +103,10 @@ h4 {
 
 #right-nav {
   float:right;
+}
+
+#contact {
+  display: inline-block;
 }
 
 
@@ -466,7 +470,6 @@ h4 {
 }
 
 .post_category {
-    width: 120px;
     font-size: 16px;
     color: #BF5858;
     padding: 2px 10px;
@@ -986,6 +989,10 @@ footer .ss-icon:hover {
 
   .intro-two-container {
     display: none;
+  }
+
+  .post_title{
+    font-size: 24px;
   }
 
 

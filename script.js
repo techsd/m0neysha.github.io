@@ -243,18 +243,25 @@ timeline.find('.u-photo.avatar').css("font-family", "ss-social-circle");
 timeline.find('.header.h-card.p-author').remove();
 timeline.find('.footer.customisable-border').remove();
 timeline.find('.p-name.customisable-highlight').remove();
-timeline.find('.u-url.permalink.customisable-highlight').css({"color": "rgba(199, 145, 145, 1)", "padding-left" : "5px", "float": "left", "font-size": "22px", "font-weight": "bold"});
+timeline.find('.u-url.permalink.customisable-highlight').css({"color": "rgba(199, 145, 145, 1)", "padding-left" : "3px", "float": "left", "font-size": "22px", "font-weight": "bold"});
 timeline.find('.hashtag.customisable').css({"color": "black", "font-size" : "18px", "font-weight" : "bold", "font-family" : " ''Source Sans Pro', sans-serif "});
 timeline.find('.e-entry-content').css({"color": "#6F6F6F", "text-decoration": "italic", "background" : "rgba(250, 250, 250, .8)", "box-shadow" : "1px 1px 1px #B9B9B9", "padding" : "10px", "border-radius" : "7px"});
 timeline.find('.e-entry-title').css({ "font-family" : "'Source Sans Pro', sans-serif", "font-size" : "16px", "line-height" : "1.3em" });
 timeline.find('.tco-display').css("color", "#3a3a3a");
 timeline.find('.profile.customisable.h-card').css("color", "#3a3a3a");
 timeline.find('.u-url.profile').remove();
-timeline.find(' .h-entry.tweet.customisable-border').css("padding", "12px 0px");
+timeline.find(' .h-entry.tweet.customisable-border').css("padding", "7px 0px");
 timeline.find('.inline-media').remove();
 timeline.find('.link.media.customisable').css("color", "rgba(199, 145, 145, 1)");
 
 }, 500);
+
+$("#contact").click(function() {
+  $("html, body").animate({ scrollTop: $(document).height() }, "slow");
+  return false;
+
+
+});
 
 
 

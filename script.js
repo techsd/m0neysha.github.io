@@ -263,6 +263,19 @@ $("#contact").click(function() {
 
 });
 
+$(window).resize(function() {
+if (($(window).width()) < '700') {
+	$('#right-nav').hide();
+	$('#menu').show();
+}
+else {
+	$('#right-nav').show();
+	$('#menu').show();
+	
+
+}
+});
+
 
 
 }); 

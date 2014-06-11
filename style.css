@@ -85,7 +85,7 @@ h4 {
 
 
 #rose {
-  background-image: url("images/rose.png");
+  background-image: url("images/rose-copy.png");
   background-position: center;
   background-repeat:  no-repeat;
   float: left;
@@ -715,9 +715,10 @@ padding-right: 20px;
 
 footer {
   margin-top: 50px;
-   background: #F6F6F6;
-   color: rgb(111, 111, 111);
-   font-size: 16px;
+  width: 100%;
+  background: #F6F6F6;
+  color: rgb(111, 111, 111);
+  font-size: 16px;
 
 
 }

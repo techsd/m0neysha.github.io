@@ -818,6 +818,10 @@ footer #visit-button {
 
   }
 
+  .three-square {
+    margin: 1px;
+  }
+
 
   .work-text {
     width: 90%;
@@ -831,9 +835,7 @@ footer #visit-button {
     width: 90%;
   }
 
-  footer .three-square {
-    width: 300px;
-  }
+
 
 
   #all-posts {

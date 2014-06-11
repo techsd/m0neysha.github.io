@@ -1,27 +1,28 @@
 $(document).ready(function(){
 
-//CAROUSEL SLIDE RIGHT
+//Work page animations 
+    $('.categorytab').click(function() {
+        $('.categoryinfo').hide();
+        $('.categorytab').removeClass('selectedtab');
+        $(this).addClass('selectedtab');
+        var category = $(this).text();
+        if (category == 'All') {
+            $('.project').show();
+        } else if (category == 'Personal') {
+            $('.project').hide();
+            $('.personal').show();
+        } else if (category == 'Web Dev') {
+            $('.project').hide();
+            $('.webdev').show();
+        } else if (category == 'CS 61B') {
+            $('.project').hide();
+            $('.cs61b').show();
+        } else {
+            $('.project').hide();
+            $('.education').show();
+        }
+    });
 
-$('#carousel-next').click(function(){
-		var currentMargin = parseInt($('#carousel').css('margin-left').replace("px", ""));
-		if (currentMargin == -3840) {
-			return false;
-		} else {
-			$('#carousel').animate({'margin-left': currentMargin - 960});		
-		}
-	});
-
-
-//CAROUSEL SLIGHT LEFT 
-
-$('#carousel-prev').click(function(){
-	var currentMargin = parseInt($('#carousel').css('margin-left').replace("px", ""));
-	if (currentMargin == 0) {
-		return false;
-	} else {
-		$('#carousel').animate({'margin-left': currentMargin + 960});		
-	}
-	});
 
 // MUSIC PAGE
 
@@ -223,19 +224,9 @@ $('.row4').click(function(row4) {
 	}
 }); 
 
-$('#blog-pic1').hover(function() {
-	$('#blog-pic1').find('#mini-banner').show();
-}, function() {
-	$('#blog-pic1').find('#mini-banner').hide();
-	}
-);
 
-$('#blog-pic2').hover(function() {
-	$('#blog-pic2').find('#mini-banner').show();
-}, function() {
-	$('#blog-pic2').find('#mini-banner').hide();
-	}
-);
+
+// twitter timeline tweaks
 
 setInterval(function() {
 var timeline = $('#twitter-widget-0').contents().find('body').find('.timeline');
@@ -263,7 +254,7 @@ $("#contact").click(function() {
 
 });
 
-/* $(window).resize(function() {
+ $(window).resize(function() {
 if (($(window).width()) < '700') {
 	$('#right-nav').hide();
 	$('#menu').show();
@@ -274,7 +265,7 @@ else {
 	
 
 }
-});*/
+});
 
 
 

@@ -14,9 +14,9 @@ $(document).ready(function(){
         } else if (category == 'Web Dev') {
             $('.project').hide();
             $('.webdev').show();
-        } else if (category == 'CS 61B') {
+        } else if (category == 'CS 61ABC') {
             $('.project').hide();
-            $('.cs61b').show();
+            $('.cs61abc').show();
         } else {
             $('.project').hide();
             $('.education').show();
@@ -24,7 +24,18 @@ $(document).ready(function(){
     });
 
 
+$('.navigation a').click(function() {
+        $('.navigation a').removeClass("nav-selectedtab");
+        $(this).addClass("nav-selectedtab");
+       });   
+
+
 // MUSIC PAGE
+
+
+
+
+
 
 
 
@@ -266,6 +277,8 @@ else {
 
 }
 });
+
+
 
 
 

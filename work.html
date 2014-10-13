@@ -1,120 +1,151 @@
-
 <html>
   <head>
     <title>Manisha Sharma</title>
       <meta http-equiv="content-type" content="text/html; charset=utf-8">
-      <link rel="stylesheet" href="style.css" type="text/css">
-      <link href="webfonts/ss-social-circle.css" rel="stylesheet" />
+      <link rel="stylesheet" href="assets/css/style.css" type="text/css">
+      <link href="assets/webfonts/ss-social-circle.css" rel="stylesheet" />
       <meta name="viewport" content="user-scalable=no, width=device-width, initial-scale=1.0, maximum-scale=1.0">
-     <link href='http://fonts.googleapis.com/css?family=Squada+One' rel='stylesheet' type='text/css'>
       <link href='http://fonts.googleapis.com/css?family=PT+Sans+Narrow' rel='stylesheet' type='text/css'>
+   <link href='http://fonts.googleapis.com/css?family=Bangers' rel='stylesheet' type='text/css'>
+
    <link href='http://fonts.googleapis.com/css?family=Open+Sans+Condensed:300' rel='stylesheet' type='text/css'> 
    <link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:200' rel='stylesheet' type='text/css'>
-   <link href="http://fonts.googleapis.com/css?family=Open+Sans:400,300,700,600" rel="stylesheet" type="text/css">
-    <script src="jquery-1.9.1.js"></script>
-  <script src="script.js"></script>
- </head>
+   <script src="assets/js/jquery-1.9.1.js"></script>
+  <script src="assets/js/script.js"></script>
+  </head>
 
 
 <!--- Top Nav --> 
 <body>
+  <div class="page-container">
   <div class="navigation">
-     <div id="rose"><a href="index.html"></a></div>
+    <div id="name">Manisha Sharma</div>
     <div id="right-nav">
-      <a href="index.html">Home</a>
-      <a href="work.html">Work</a>
-      <a href="blog.html">Blog</a>
-      <div id="contact"><a href="#">Contact</a></div>
-      <!--- <a href="music.html">Music</a> --></div>
+      <a href="index.html"><div class="nav-selectedtab">Home</div></a>
+      <a href="work.html">Projects</a>
+     <a href="music.html">Music</a>
+      <a href="about.html">About</a>   
+    </div>
   </div>
+
+
+
+    <div class="page-header">
+  Projects</div>
 
       <div class="page-nav">
         <div id="categories">
             <div class="categorytab selectedtab">All</div>
             <div class="categorytab">Personal</div>
             <div class="categorytab">Web Dev</div>
-            <div class="categorytab">CS 61B</div>
+            <div class="categorytab">CS 61ABC</div>
             <div class="categorytab">Education</div>
         </div>
       </div>
+
         <div class="categoryinfo webdev">
             These are some websites I designed and/or developed.
         </div>
         <div class="categoryinfo personal">
             These are some personal side projects that I've worked on or am currently working on.
         </div>
-        <div class="categoryinfo cs61b">
-            These are projects related to CS 61B (Data Structures). These projects are in Java. Email me for code.
+        <div class="categoryinfo cs61abc">
+            These are projects related to CS61 series at UC Berkeley which include CS61A(Structure and Interpretation of Computer Programs) CS 61B (Data Structures), and CS 61C (Computer Architecture). These projects are in Python, Java, C, MIPS. Email me for code.
           </div>
 
 
   <div class="project webdev">
         <div class="work-text">
-          <h4>Passion Projects</h4>
+          <h1>Passion Projects</h1>
           I worked as Julie Horvath's intern at GitHub developing and maintaining the passion projects website using HTML/CSS. Also contributed to GitHub's internal apps using coffeescript.
-          <div id="visit-button"><a href="passionproject.github.io">Visit Site</a></div></div>
+          <div id="visit-button"><a href="http://passion-projects.is/">Visit Site</a></div></div>
     </div>
 
       <div class="project webdev">
         <div class="work-text">
-          <h4>teach4Real Redesign</h4>
-          Using HTML/CSS and PHP, I will redesign an urban education blogger's website, focusing on marketing his teaching units and books. Also will set up a newsletter using MailChimp. The site is currently using Wordpress. 
-          <div id="visit-button"><a href="www.teach4real.com">Visit Site</a></div>
+          <h1>teach4Real Redesign</h1>
+          Using HTML/CSS and PHP, I redesigned an urban education blogger's website, focusing on marketing his teaching units and books. Also will set up a newsletter using MailChimp. The site is currently using Wordpress. 
+          <div id="visit-button"><a href="teach4real.com">Visit Site</a></div>
         
       </div>
     </div>
 
      <div class="project education">
         <div class="work-text">
-          <h4>Berkeley CS10 edX Team</h4>
+          <h1>Berkeley CS10 edX Team</h1>
            I worked on transitioning the CS10: BJC course from Berkeley to the edX platform focusing on college and highschool students. I wrote a summer guide for teachers about useful edX features and tools that can help them manage their curriculum. 
-           <div id="visit-button"><a href="#">Visit Course</a></div>
+           <div id="visit-button"><a href="https://www.edx.org/course/uc-berkeleyx/uc-berkeleyx-bjc-1x-beauty-joy-computing-3716#.VDtYGNTF-f8">Visit Course</a></div>
          </div>
+       </div>
+
+          <div class="project cs61abc">
+        <div class="work-text">
+          <h1>Twitter Trends</h1> 
+           In CS61A, using python, I developed a geographic visualization of Twitter data across the USA by collecting public Twitter posts (Tweets) that have been tagged with geographic locations, assigning a sentiment (positive or negative) to each Tweet, based on all of the words it contains, aggregating Tweets by the state with the closest geographic center, and coloring each state according to the aggregate sentiment of its Tweets.
+          <div id="visit-button"><a href="assets/projects/cs61a_trends.pdf">Spec</a></div>
+         </div>
+
+       </div>
+
+           <div class="project cs61abc">
+        <div class="work-text">
+          <h1>Color Images, Edge Detection, and Run-Length Encodings</h1> 
+            In CS61B, using Java, I implemented two simple image processing operations on color images: blurring and edge detection. 
+          <div id="visit-button"><a href="http://www.cs.berkeley.edu/~jrs/61b/hw/pj1/readme.pdf">Spec</a></div>
+        
+      </div>
+    </div>
+
+     <div class="project cs61abc">
+        <div class="work-text">
+          <h1>Network</h1> 
+            In CS61B, using Java, I implemented a program that plays the game Network against a human player or another computer program. 
+          <div id="visit-button"><a href="http://www.cs.berkeley.edu/~jrs/61b/hw/pj2/readme.pdf">Spec</a></div>
+        
+      </div>
+    </div>
+
+    <div class="project cs61abc">
+        <div class="work-text">
+          <h1>WUGraph</h1> 
+            In CS61B, using Java,  I created a well-encapsulated ADT called WUGraph in a package called graph. 
+
+          <div id="visit-button"><a href="http://www.cs.berkeley.edu/~jrs/61b/hw/pj3/readme.pdf">Spec</a></div>
+        
+      </div>
+    </div>
+
+    <div class="project cs61abc">
+        <div class="work-text">
+          <h1>Autosteregrams</h1> 
+            In CS61C, using C and MIPS assembly language, I wrote a program that captures 3D data from the environment and then visualizes it in a 3D autostereogram.
+
+          <div id="visit-button"><a href="assets/projects/cs61c_proj1.pdf">Spec</a></div>
+        
+      </div>
+    </div>
+
+     <div class="project personal">
+        <div class="work-text">
+          <h1>Personal Website</h1> 
+            You're here! :) I use this website to experiment and play with HTML, CSS and jQuery. Currently working on making my music page more awesome. 
+
+          <div id="visit-button"><a href="assets/projects/cs61c_proj1.pdf">Spec</a></div>
+        
+      </div>
+    </div>
+
 
 </div>
 
 
-
+</div>
  <!-- Footer  -->
 
   
 
 <footer>
-  <div class="container">
 
- <div class="three-square"> 
-  <h4>Latest Tweets</h4>
-  <a class="twitter-timeline" data-dnt="true" href="https://twitter.com/m0neysha" data-widget-id="471103823532937216" data-chrome="noheader nofooter noborders transparent" data-tweet-limit="2" >Tweets by @m0neysha</a>
-<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");
-
-</script>
-<div class="clear"></div>
-
-</div>
-
-<div class="three-square"> <h4>Recent Posts</h4>
-  <ul> 
-    <li> <a href="#"> <div id="arrow">&#8702;</div> Recent Post #1</a></li>
-    <li> <a href="#"><div id="arrow">&#8702;</div> Recent Post #2</a></li>
-    <li> <a href="#"><div id="arrow">&#8702;</div> Recent Post #3</a></li>
-    <li> <a href="#"><div id="arrow">&#8702;</div> Recent Post #4</a></li>
-  </ul>
-</div>
-
-<div class="three-square"> <h4>Contact me</h4>
-  <center>The best way to contact me is through <div id="visit-button"><a href="mailto:manishafiji5194@gmail.com" target="_blank" alt="Email me!">&#9998; email</div></center> 
-<br>
-  <div class="icon-div">
-<a href="https://twitter.com/@m0neysha" alt="Follow me on Twitter!"><span class="ss-icon ss-social-circle ss-twitter"></a>
-<a href="mailto:manishafiji5194@gmail.com" target="_blank" alt="Email me!"><span class="ss-icon ss-social-circle ss-mail"></a>
- <a href="http://instagram.com/m0neysha" alt="Follow me on Instagram!"><span class="ss-icon ss-social-circle ss-instagram"></a> 
- <a href="https://github.com/m0neysha"><span class="ss-icon ss-social-circle ss-github"></a>
- <a href="https://www.linkedin.com/profile/view?id=256521919&trk=nav_responsive_tab_profile_pic"><span class="ss-icon ss-social-circle ss-linkedin"></a></div>
-
-
-</div>
-
-<div class="clear"></div>
 
 
  <div class="copyright"> © 2014 Manisha Sharma</div>

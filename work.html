@@ -55,6 +55,7 @@
 
 
   <div class="project webdev">
+        <div class="work-img"><img src="images/passionpic.png" width="250px"></div>
         <div class="work-text">
           <h1>Passion Projects</h1>
           I worked as Julie Horvath's intern at GitHub developing and maintaining the passion projects website using HTML/CSS. Also contributed to GitHub's internal apps using coffeescript.
@@ -62,6 +63,7 @@
     </div>
 
       <div class="project webdev">
+        <div class="work-img"><img src="images/teach4real.png" width="250px"></div>
         <div class="work-text">
           <h1>teach4Real Redesign</h1>
           Using HTML/CSS and PHP, I redesigned an urban education blogger's website, focusing on marketing his teaching units and books. Also will set up a newsletter using MailChimp. The site is currently using Wordpress. 
@@ -71,6 +73,7 @@
     </div>
 
      <div class="project education">
+       <div class="work-img"><img src="images/edX.jpg" width="250px"></div>
         <div class="work-text">
           <h1>Berkeley CS10 edX Team</h1>
            I worked on transitioning the CS10: Beauty and Joy of Computing course from Berkeley to the edX platform focusing on college and highschool students. CS10 will be available on edX in 2015!
@@ -79,36 +82,52 @@
        </div>
 
           <div class="project cs61abc">
+             <div class="work-img"><img src="images/trends.png" width="250px"></div>
         <div class="work-text">
           <h1>Twitter Trends</h1> 
-           In CS61A, using python, I developed a geographic visualization of Twitter data across the USA by collecting tweets that have been tagged with geographic locations, assigning a sentiment (positive or negative) to each tweet, based on all of the words it contains, aggregating tweets by the state with the closest geographic center, and coloring each state according to the aggregate sentiment of its Tweets.
+           In CS61A, using python, I developed a geographic visualization of Twitter data across the USA by collecting tweets that have been tagged with geographic locations, assigning a sentiment (positive or negative) to each tweet, based on all of the words it contains, aggregating tweets by the state with the closest geographic center, and coloring each state according to the aggregate sentiment of its Tweets. This was my first project that used python data structures.
+
+           <p>
+            <div id="learned"> &check; Lessons Learned:</div> Abstraction is beautiful.  
           <div id="visit-button"><a href="assets/projects/cs61a_trends.pdf">Spec</a></div>
          </div>
 
        </div>
 
            <div class="project cs61abc">
+            <div class="work-img"><img src="images/reggie.png" width="250px"></div>
         <div class="work-text">
           <h1>Color Images, Edge Detection, and Run-Length Encodings</h1> 
             In CS61B, using Java, I implemented two simple image processing operations on color images: blurring and edge detection. 
+
+            <p>
+            <div id="learned"> &check; Lessons Learned:</div> Found myself looking at a lot of computational code spanning across the entire sublime text window. I learned to comment the heck out of these lines and make additional helper methods to keep track of what I was doing and minimize repetitive code. 
+
           <div id="visit-button"><a href="http://www.cs.berkeley.edu/~jrs/61b/hw/pj1/readme.pdf">Spec</a></div>
         
       </div>
     </div>
 
      <div class="project cs61abc">
+      <div class="work-img"><img src="images/network.png" width="250px"></div>
         <div class="work-text">
           <h1>Network</h1> 
-            In CS61B, using Java, I implemented a program that plays the game Network against a human player or another computer program. 
+            In CS61B, using Java, we created the game Network using classes such as GameBoard, Chip, Best, Move, Player, and MachinePlayer and implemented an AI using DFS that plays the game Network against a human player or another computer program. This was a group project with 3 people. My role was to write methods to determine whether a move was valid and whether a game board contains any networks for a given player.
+
+            <p>
+           <div id="learned"> &check; Lessons Learned:</div> Playing the game with my project partners helped us identify some common techniques we all used. It was cool to see our AI using our techniques to win games &hearts;
+
           <div id="visit-button"><a href="http://www.cs.berkeley.edu/~jrs/61b/hw/pj2/readme.pdf">Spec</a></div>
+          
         
       </div>
     </div>
 
     <div class="project cs61abc">
+      <div class="work-img"><img src="images/kruskal.png" width="250px"></div>
         <div class="work-text">
-          <h1>WUGraph</h1> 
-            In CS61B, using Java,  I created a well-encapsulated ADT called WUGraph in a package called graph. 
+          <h1>Weighted Undirected Graphs and Minimum Spanning Trees</h1> 
+            In CS61B, using Java,  I created a well-encapsulated ADT called WUGraph including a method implementing Kruskal's algorithm. 
 
           <div id="visit-button"><a href="http://www.cs.berkeley.edu/~jrs/61b/hw/pj3/readme.pdf">Spec</a></div>
         
@@ -116,30 +135,47 @@
     </div>
 
     <div class="project cs61abc">
+    <div class="work-img"><img src="images/autostereo.png" width="250px"></div>
+
         <div class="work-text">
           <h1>Autostereograms</h1> 
             In CS61C, using C and MIPS assembly language, I wrote a program that captures 3D data from the environment and then visualizes it in a 3D autostereogram.
 
+
           <div id="visit-button"><a href="assets/projects/cs61c_proj1.pdf">Spec</a></div>
         
       </div>
     </div>
 
+     <div class="project cs61abc">
+      <div class="work-img"><img src="images/spark.png" width="250px"></div>
+
+        <div class="work-text">
+          <h1>Map Reduce</h1> 
+            In CS61C, I used Apache Spark to turn the breadth-first transversal algorithm into a format compatible with the MapReduce framework. 
+            <p>
+            <div id="learned"> &check; Lessons Learned:</div> From the Spark docs, learning that transformations use "lazy evaluation" really helped me optimize my code by considering the time cost of using actions vs. transformations on RDDS in each iteration. Also, cutting down the number of times I used an action from every iteration to every k iterations.     
+
+          <div id="visit-button"><a href="assets/projects/cs61c_proj2.pdf">Spec</a></div>
+        
+      </div>
+    </div>
+
+
+
      <div class="project personal">
+      <div class="work-img"><img src="images/personal.png" width="250px"></div>
+
         <div class="work-text">
           <h1>Personal Website</h1> 
             You're here! :) I use this website to experiment and play with HTML, CSS and jQuery. Currently working on making my music page more awesome. 
 
-          <div id="visit-button"><a href="assets/projects/cs61c_proj1.pdf">Spec</a></div>
+          
         
       </div>
     </div>
 
 
-</div>
-
-
-</div>
  <!-- Footer  -->
 
   
@@ -151,6 +187,9 @@
  <div class="copyright"> © 2014 Manisha Sharma</div>
 
 </footer>
+
+</div>
+
 
 
 

@@ -109,6 +109,7 @@ h1 {
 
 
 #name {
+  width: 250px;
   font-size: 40px;
   color: rgba(0, 0, 0, 0.65);
   font-family: 'Bangers', cursive;
@@ -524,6 +525,11 @@ footer {
 
   .aboutme-text {
     width: 95%;
+  }
+
+  #name {
+    left: 70;
+    font-size: 35px; 
   }
 
 

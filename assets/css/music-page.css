@@ -24,6 +24,7 @@
 .music-box {
   margin: 0 auto;
   padding-top: 100px;
+
   position: relative;
   height: 50%;
   width: 75%;
@@ -41,6 +42,9 @@
   font-size: 20px;
   color:#4D4D4D;
   text-align: left;
+  padding-top: 30px;
+  padding-left: 10px;
+  padding-right: 10px;
   padding-bottom: 20px;
   max-width: 100%;
 }

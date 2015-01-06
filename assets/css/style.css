@@ -11,7 +11,7 @@ body {
   color: #3a3a3a;
   line-height: 1.7em; 
   letter-spacing: .5px;
-  background: rgba(0, 0, 0, 0.02);
+  background: #fff;
   height: 100%;
   
    }
@@ -48,12 +48,13 @@ h1 {
 
 
 .navigation {
-  position: fixed;
+  position: relative;
   margin: 0 auto;
   width: 97%;
   height: 50px;
   text-align: center;
   z-index: 5;
+  display: inline-block;
 }
 
 .navigation a {
@@ -78,7 +79,7 @@ h1 {
 }
 
 .mobile-nav {
-  top: 70;
+  top: 50;
   position: relative;
   margin: 0 auto;
   width: 100%;
@@ -176,7 +177,7 @@ h1 {
 
 #right-nav {
   float:right;
-  position: fixed;
+  position: relative;
   right: 85px;
   top: 20px;
   display: inline-block;
@@ -219,12 +220,12 @@ h1 {
 }
  
 .contact-button {
-  color: #fff;
+  color: #000;
   font-family: 'PT Sans Narrow', 'sans-serif'; 
   font-size: 18px;
   width: 200px;
   text-align: center;
-  border: 2px #fff solid;
+  border: 2px #000 solid;
   border-radius: 5px;
   padding: 10px 30px; 
   margin: 0 auto;
@@ -256,6 +257,7 @@ h1 {
 
 .page-container {
   width: 97%;
+  height: 100%;
   margin: 0 auto;
   padding-bottom: 30px;
   background-color: white;
@@ -264,9 +266,6 @@ h1 {
 
 }
 
-.page-container .front {
-  height: 100%;
-}
 
 
 
@@ -664,7 +663,7 @@ footer {
   }
 
   .navigation {
-    background-color: transparent;
+    display: none;
   }
 
   .mobile-nav {

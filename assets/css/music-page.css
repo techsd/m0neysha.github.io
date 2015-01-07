@@ -1,40 +1,103 @@
-.music-img {
-
-  height: 440px;
-  width: 100%;
-  background-size: 100%;
-  background-image: -webkit-linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.5)), url("images/superb.jpg");
-  background-image: -moz-linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.5)), url("images/superb.jpg");
-
-}
-
-#music-title {
-  color: rgba(236, 203, 203, 0.7);
-  width: 100%;
-  font-size: 50px;
-  font-family: 'Squada One', cursive;
-  text-shadow: 1px 1px #000;
-  height: 40px;
-  position: relative;
-  border-bottom: 1px dotted #888;
-  max-width: 100%;
-
-}
-
-.music-box {
-  margin: 0 auto;
-  padding-top: 100px;
-
-  position: relative;
-  height: 50%;
+.music-container {
   width: 75%;
-  color: #fff;
-  font-family: 'Source Sans Pro', sans-serif;
-
+  position: relative;
+  margin: 0 auto;
 }
 
 
+.year-nav-wrapper {
+  position: relative;
+  width: 99%;
+  float: left;
+}
 
+.years {
+    position: relative;
+    margin: 0 auto;
+    padding: 0;
+    list-style: none;
+    height: 42px;
+   }
+
+.year-tab {
+    display: inline-block;
+    padding: 5px 20px;
+    float: right;
+    width: 80px;
+    text-align: center;
+    margin-left: 10px;
+    margin-bottom: 20px;
+    font-size: 16px;
+    text-transform: uppercase;
+    color: #000;
+    letter-spacing: 2px;
+
+}
+.selected-year-tab {
+    border-bottom: 5px outset red;
+}
+
+    .wrap {
+      overflow: hidden;
+      margin: 10px;
+      width: 100%;
+      float: right;
+    }
+    .box {
+      float: left;
+      position: relative;
+      width: 20%;
+      padding-bottom: 20%;
+    }
+    .box-inner {
+      position: absolute;
+      left: 10px;
+      right: 10px;
+      top: 10px;
+      bottom: 10px;
+      border-radius: 2px;
+      overflow: hidden;
+    }
+    .box-inner img {
+      width: 100%;
+      height: 100%;
+      position: absolute;  
+      left: 0;  
+      -webkit-transition: all 300ms ease-out;  
+      -moz-transition: all 300ms ease-out;  
+      -o-transition: all 300ms ease-out;  
+      -ms-transition: all 300ms ease-out;  
+      transition: all 300ms ease-out;  
+    }
+
+    .box-inner .caption {  
+      background-color: rgba(0,0,0,0.8);  
+      position: absolute;  
+      color: #fff;  
+      z-index: 100;  
+      -webkit-transition: all 300ms ease-out;  
+      -moz-transition: all 300ms ease-out;  
+      -o-transition: all 300ms ease-out;  
+      -ms-transition: all 300ms ease-out;  
+      transition: all 300ms ease-out;  
+      left: 0;  
+    }  
+    .box-inner .fade-caption {  
+      opacity: 0;  
+      width: 90%;  
+      height: 90%;  
+      text-align: left;  
+      padding: 15px;  
+    }  
+
+    .box:hover .fade-caption {  
+      opacity: 1;  
+    }  
+
+    .box h3 {
+      color: #e52f26;
+      text-align: center;
+    }
 
 .music-text {
   margin:auto;
@@ -46,232 +109,10 @@
   padding-left: 10px;
   padding-right: 10px;
   padding-bottom: 20px;
-  max-width: 100%;
+  max-width: 90%;
+  text-align: center;
 }
-
-.sort-by-year {
-  padding: 50px 70px;
-  margin:auto;
-  font-size: 40px;
-  height: 40px;
-  width: 960px;
-  font-family: 'PT Sans Narrow', 'sans-serif';
-  text-align: right;
-  max-width: 100%;
-
-}
-
-
-
-#slash {
-  display: inline-block;
-  color: rgba(236, 203, 203, 1);
-}
-
-#my-concerts {
-  float: left;
-}
-
-.2014-container {
-  height: 900px;
-  width: 100%;
-  max-width: 100%;
-  background-color: rgba(236, 203, 203, 1);
-  position: relative;
-  z-index: -1;
-}
-
-.2013-container {
-  height: 1100px;
-  width: 100%;
-  position: relative;
-  max-width: 100%;
-  z-index: -1;
-
-}
-
-#year-bar {
-  width: 960;
-  height: 25px;
-  background-color: black;
-  font-size: 20px;
-  color: #fff;
-  text-align: left;
-  margin: auto;
-  padding: 5px;
-  max-width: 100%;
-
-}
-
-#album-pic {
-  height: 220px;
-  width: 220px;
-  border: 1px #000 solid;
-  box-shadow: 2px 2px 1px #888888;
-
-}
-
-#album-pic:hover {
-  opacity: .4;
-  cursor: pointer;
-}
-
-#mini-banner {
-  opacity: .8;
-  color: red;
-  width: 100%;
-  margin: auto;
-  position: relative;
-}
-
-.four-square {
-  padding-right: 20px;
-  width: 220px;
-  height: 300px;
-  position: relative;
-  z-index: 1;
-  float: left;
-}
-
-
-.row1 {
-  padding: 30px 50px;
-  width: 960;
-  height: 300px;
-  margin: 0 auto;
-  max-width: 960px;
-
-}
-
-#info1 {
-  padding: 30px 20px;
-  width: 960px;
-  height: 200px;
-  margin: 0 auto;
-  display: none;
-  max-width: 960px;
-
-}
-
-#item1 {
- width: 220px;
-height: 300px;
-float: left;
-padding-right: 20px; }
-
-#item2 {
- width: 220px;
-height: 300px;
-float: left;
-padding-right: 20px;  
-}
-
-#item3 {
- width: 220px;
-height: 300px;
-float: left;
-padding-right: 20px;  
-}
-
-#item4 {
- width: 220px;
-height: 300px;
-float: left;
-padding-right: 20px;  
-}
-
-.row2 {
-  padding: 30px 50px;
-  width: 960;
-  height: 300px;
-  margin: 0 auto;
-  max-width: 960px;
-
-}
-
-#info2 {
-
-  padding: 50px 20px;
-  height: 200px;
-  width: 960;
-  margin: 0 auto;
-  display: none;
-  max-width: 960px;
-
-}
-
-.row3 {
-  padding: 30px 50px;
-  width: 960;
-  height: 300px;
-  margin: 0 auto;
-  max-width: 960px;
-
-}
-
-.row4 {
-  width: 960;
-  height: 300px;
-  margin: 0 auto;
-  max-width: 960px;
-
-}
-
-.row5 {
-  width: 960;
-  height: 300px;
-  margin: 0 auto;
-  max-width: 960px;
-
-}
-
-#review {
-  width: 490px;
-  margin-bottom: 20px;
-  padding: 15px 0px;
-  font-size: 30px;
-  border-bottom: 1px dotted #000;
-}
-
-.review {
-  width: 550px;
-  height: 200px;
-  float: left;
-}
-
-#fav-tracks {
-  width: 300px;
-  padding: 15px;
-  font-size: 30px;
-  border-bottom: 1px dotted #000;
-}
-
-
-.track-list {
-  padding-left: 10px;
-  border-left: 1px dotted #000;
-  color: rgba(145, 114, 114, 1);
-  background-color: #F1F1F1;
-  width: 370px;
-  height: 230px;
-  float: left;
-
-}
-
-
-#concert-title {
-  width: 220px;
-  height: 30px;
-  color: #000;
-  text-align: left;
-  font-size: 24px;
-  font-weight: bold;
-  color: #000;
-  font-family:  'Open Sans Condensed', 'sans-serif';
-}
-
-
-.music-icons {
+    .music-icons {
   padding-top: 30px;
   width: 270px;
   height: 120px;
@@ -293,3 +134,40 @@ padding-right: 20px;
   opacity: 1;
 
 }
+
+
+
+
+
+
+    body.no-touch .box-inner:hover .title-box, body.touch .box-inner.touch-focus .title-box {
+      margin-bottom: 0;
+    }
+    @media only screen and (max-width : 480px) {
+      /* Smartphone view: 1 tile */
+      .box {
+        width: 100%;
+        padding-bottom: 100%;
+      }
+    }
+    @media only screen and (max-width : 650px) and (min-width : 481px) {
+      /* Tablet view: 2 tiles */
+      .box {
+        width: 50%;
+        padding-bottom: 50%;
+      }
+    }
+    @media only screen and (max-width : 1050px) and (min-width : 651px) {
+      /* Small desktop / ipad view: 3 tiles */
+      .box {
+        width: 33.3%;
+        padding-bottom: 33.3%;
+      }
+    }
+    @media only screen and (max-width : 1290px) and (min-width : 1051px) {
+      /* Medium desktop: 4 tiles */
+      .box {
+        width: 25%;
+        padding-bottom: 25%;
+      }
+    }
